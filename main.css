@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    background-color: #f9f5f5; 
 }
 .header{
     border: 1px solid white;
@@ -76,8 +77,169 @@ section{
     margin: 0% 10%;
     align-self: center;
     padding: 50px 0px;
+    text-align: center;
 }
 .general-btn{
+    border: 1px solid #0ea0ff;
+    border-radius: 20px;
+    background-color: white;
     align-self: center;
-    padding-bottom: 50px;
+    padding: 6px 15px;
+}
+.general-btn-link{
+    color: #0ea0ff;
+    font-size: 15px;
+    align-self: center;
+    text-decoration: none;
+}
+.general-btn:hover{
+    background-color: #0ea0ff;  
+    color: white;  
+}
+
+.sc-detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sc-name{
+    border-style: none;
+    border-top: 1px solid #e6e6e6;
+    margin: 0px 150px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.item1{
+    border-style: none;
+    border-top: 1px solid #e6e6e6;
+    margin: 30px 200px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.item1-header{
+    border-style:  none;
+}
+.item1-name{
+    float: left;
+    margin: 8px 0px; /* bunu sorush tebrizden*/
+}
+.item1-date{
+    float: right;
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: bold;
+}
+.item1-company{
+    border-style: none;
+    background-color: #0ea0ff;
+    padding: 2px 5px;
+    border-radius: 20px;
+    color: white;
+    align-self: flex-start; 
+}
+.item1-info{
+    border-style: none;
+    margin: 15px 0px;
+    color:#7a7878;
+}
+.item2-company{
+    border-style: none;
+    background-color: #00cc99;
+    padding: 2px 5px;
+    border-radius: 20px;
+    color: white;
+    align-self: flex-start; 
+}
+.other-info{
+    border-style: none;
+    border-top: 1px solid #e6e6e6;
+    margin: 30px 200px;
+    padding-top: 15px;
+    display: flex;
+}
+.skills{
+    background-color: white;
+    border-style: none;
+    /*width: 250px;*/
+    float: left;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
+    padding: 50px;  
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+.space-block{
+    flex-grow: 1;
+}
+.contact{
+    background-color: white;
+    border-style: none;
+    float: right;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
+    padding-left: 50px;     
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+}
+.html-yes{
+    border-style: none;
+    height: 3px;
+    background-color: #0ea0ff;
+    width:  100%;
+}
+.php-yes{
+    border-style: none;
+    height: 3px;
+    background-color: #0ea0ff;
+    width:  80%;
+    float: left;
+}
+.php-no{
+    border-style: none;
+    height: 3px;
+    background-color: grey;
+    width:  20%;
+    float: left;
+}
+.js-yes{
+    border-style: none;
+    height: 3px;
+    background-color: #0ea0ff;
+    width:  70%;
+    float: left;
+}
+.js-no{
+    border-style: none;
+    height: 3px;
+    background-color: grey;
+    width:  30%;
+    float: left;
+}
+.contact-name{
+    
+}
+.contact-pic{
+    width: 100%;
+}
+.contact-pic-div{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.contact-text{
+    
+}
+.hobbi-text{
+    text-align: center;
+    border-style: none;
+    margin: 30px 200px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.footer-block{
+    border-style: none;
+    border-top: 1px solid #e6e6e6;
+    height: 100px;
 }
